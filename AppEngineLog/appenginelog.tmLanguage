@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>fileTypes</key>
+    <array>
+        <string>appenginelog</string>
+    </array>
+    <key>name</key>
+    <string>AppEngineLog</string>
+    <key>patterns</key>
+    <array>
+        <dict>
+            <key>comment</key>
+            <string>Error highlight</string>
+            <key>match</key>
+            <string>^ERROR.*$</string>
+            <key>name</key>
+            <string>constant.language.appenginelog.log_level.error</string>
+        </dict>
+        <dict>
+            <key>comment</key>
+            <string>Info highlight</string>
+            <key>match</key>
+            <string>^INFO.*$</string>
+            <key>name</key>
+            <string>constant.language.appenginelog.log_level.info</string>
+        </dict>
+        <dict>
+            <key>comment</key>
+            <string>Warning highlight</string>
+            <key>match</key>
+            <string>^WARNING.*$</string>
+            <key>name</key>
+            <string>constant.language.appenginelog.log_level.warning</string>
+        </dict>
+        <dict>
+            <key>comment</key>
+            <string>Info highlight</string>
+            <key>match</key>
+            <string>^DEBUG.*$</string>
+            <key>name</key>
+            <string>constant.language.appenginelog.log_level.debug</string>
+        </dict>
+        <dict>
+            <key>comment</key>
+            <string>Info highlight</string>
+            <key>match</key>
+            <string>^CRITICAL.*$</string>
+            <key>name</key>
+            <string>constant.language.appenginelog.log_level.critical</string>
+        </dict>
+        <dict>
+            <key>comment</key>
+            <string>Request highlight</string>
+            <key>match</key>
+            <string>^REQUEST.*$</string>
+            <key>name</key>
+            <string>constant.language.appenginelog.log_level.request</string>
+        </dict>
+    </array>
+    <key>scopeName</key>
+    <string>text.appenginelog</string>
+</dict>
+</plist>
