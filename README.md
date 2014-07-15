@@ -1,5 +1,5 @@
 #sublime-appengine-logs
-A simple log formatter and accompanying sublime language/theme.  Inspired by Michael Davis's [runservery.py script](https://github.com/michaeldavis-wf/scripts)
+A simple log formatter and accompanying sublime language/theme.  Inspired by Michael Davis's [runservery.py script](https://github.com/michaeldavis-wf/scripts).  Feel free to modify as needed.
 
 ![Screenshot](screenshot.png)
 
