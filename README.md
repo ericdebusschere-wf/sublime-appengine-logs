@@ -19,7 +19,7 @@ First you will need to request logs from the appspot and module you want to exam
 
 **Example:**<br/>
 *appcfg.py request_logs -A wf-books-stage -V 23-15bee19 --module default --severity=3 -n 2 -v --include_all --noisy test_logs.txt*
-<br /><br />
+<br /><br /><br />
 Once you have a log file, use format_logs.py to convert the file to a .appenginelog file like so:
 
 *python format_logs.py test_logs.txt --output test_logs.appenginelog*
@@ -27,5 +27,5 @@ Once you have a log file, use format_logs.py to convert the file to a .appengine
 If you do not specify the output option the logs will print to the terminal (also useful).  To both print to the terminal and output to an appenginelog file, add the --print option:
 
 *python format_logs.py test_logs.txt --output test_logs.appenginelog --print*
-<br /><br />
+<br /><br /><br />
 Now that you have a .appenginelog file, open it with Sublime Text.  If you do not see colored log files, you may have to set the first .appenginelog syntax specifically.  To do this click the menu option View -> Syntax -> AppEngineLog.  
