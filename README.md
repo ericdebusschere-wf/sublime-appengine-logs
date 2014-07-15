@@ -30,3 +30,5 @@ If you do not specify the output option the logs will print to the terminal (als
 *python format_logs.py test_logs.txt --output test_logs.appenginelog --print*
 <br /><br /><br />
 Now that you have a .appenginelog file, open it with Sublime Text.  If you do not see colored log files, you may have to set the first .appenginelog syntax specifically.  To do this click the menu option View -> Syntax -> AppEngineLog.  
+
+You might also want to turn word wrap off for log files.  This can be done via the menu option View -> Word Wrap
